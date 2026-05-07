@@ -1,52 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
+    <title>Maunesh Ahir</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maunesh Ahir — Software Engineer. Computer Vision, Model Evaluation, Infrastructure.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-		<title>Maunesh Ahir</title>
+    <div class="scanline"></div>
+    <div class="noise"></div>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <header class="header">
+        <div class="header-inner">
+            <span class="logo">~/maunesh</span>
+            <nav class="nav-links">
+                <a href="#about"><span class="nav-prefix">[</span>about<span class="nav-suffix">]</span></a>
+                <a href="#experience"><span class="nav-prefix">[</span>experience<span class="nav-suffix">]</span></a>
+                <a href="#links"><span class="nav-prefix">[</span>links<span class="nav-suffix">]</span></a>
+            </nav>
+        </div>
+    </header>
 
-		<link rel="stylesheet" href="css/style.css">
+    <main>
+        <section class="hero">
+            <div class="terminal-window">
+                <div class="terminal-bar">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">maunesh@bay-area ~ </span>
+                </div>
+                <div class="terminal-body">
+                    <p class="type-line"><span class="prompt">$</span> whoami</p>
+                    <h1 class="hero-name">Maunesh Ahir</h1>
+                    <p class="type-line"><span class="prompt">$</span> cat role.txt</p>
+                    <p class="hero-role">Software Engineer</p>
+                    <p class="type-line"><span class="prompt">$</span> cat focus.txt</p>
+                    <p class="hero-focus">Infrastructure, Model Evaluation, Deep Learning, Computer Vision, Performance Metrics, Benchmarking</p>
+                    <p class="type-line"><span class="prompt">$</span> echo $SKILLS</p>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">C++</span>
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Computer Architecture</span>
+                    </div>
+                    <p class="type-line cursor-blink"><span class="prompt">$</span> <span class="cursor">_</span></p>
+                </div>
+            </div>
+        </section>
 
-		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
+        <section class="about" id="about">
+            <div class="section-container">
+                <h2 class="section-heading"><span class="heading-hash">#</span> About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">AI, Infrastructure, and Product-Driven Engineering</p>
+                        <p>Earlier in my career I worked on the MIPS Instruction Set Architecture (at MIPS), where I worked on the Memory Management Unit, Hardware Page Table Walker, and Cache Coherence in the Load-Store Unit, in Superscalar, Speculative Instruction Execution Microarchitectures.</p>
+                        <p>Today at Apple, my work focuses on infrastructure, automations, computer vision, deep learning, and model evaluation.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-row">
+                            <span class="stat-key">location:</span>
+                            <span class="stat-val">San Francisco Bay Area</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-key">education:</span>
+                            <span class="stat-val">B.S. Computer Engineering</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-key">status:</span>
+                            <span class="stat-val"><span class="status-dot"></span>Building cool things</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-footer">
+                    <p>I enjoy connecting ideas across different technologies and thinking about systems from a broader product and user-impact perspective. I'm naturally curious and enjoy continuously learning and exploring new areas.</p>
+                </div>
+            </div>
+        </section>
 
-	<body class="animated bounceInDown">
-		<div class="avatar">
-			<img src="img/avatar.jpg" alt="Avatar">
-		</div>
+        <section class="experience" id="experience">
+            <div class="section-container">
+                <h2 class="section-heading"><span class="heading-hash">#</span> Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker current"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Present</span>
+                            <h3>Senior Software Engineer</h3>
+                            <p class="timeline-company">Apple</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Previous</span>
+                            <h3>Hardware Engineer (CPU)</h3>
+                            <p class="timeline-company">MIPS by Imagination Technologies</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Previous</span>
+                            <h3>Web Developer</h3>
+                            <p class="timeline-company">California State University Northridge</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Previous</span>
+                            <h3>Research Apprentice</h3>
+                            <p class="timeline-company">US Department of Defense</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Previous</span>
+                            <h3>Software Developer Intern</h3>
+                            <p class="timeline-company">SimInsights Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-		<div class="content">
-			<h1 class="title">Maunesh Ahir<br></h1>
+        <section class="links" id="links">
+            <div class="section-container">
+                <h2 class="section-heading"><span class="heading-hash">#</span> Links</h2>
+                <div class="links-grid">
+                    <a href="https://www.linkedin.com/in/mauneshahir" target="_blank" class="link-card">
+                        <span class="link-icon">in</span>
+                        <span class="link-name">LinkedIn</span>
+                        <span class="link-desc">Professional background</span>
+                        <span class="link-arrow">-></span>
+                    </a>
+                    <a href="https://github.com/maunesh" target="_blank" class="link-card">
+                        <span class="link-icon">gh</span>
+                        <span class="link-name">GitHub</span>
+                        <span class="link-desc">Open source projects</span>
+                        <span class="link-arrow">-></span>
+                    </a>
+                    <a href="https://medium.com/@maunesh" target="_blank" class="link-card">
+                        <span class="link-icon">md</span>
+                        <span class="link-name">Medium</span>
+                        <span class="link-desc">Technical writing</span>
+                        <span class="link-arrow">-></span>
+                    </a>
+                    <a href="https://www.youtube.com/c/MauneshAhir" target="_blank" class="link-card">
+                        <span class="link-icon">yt</span>
+                        <span class="link-name">YouTube</span>
+                        <span class="link-desc">Project videos</span>
+                        <span class="link-arrow">-></span>
+                    </a>
+                </div>
+                <div class="email-section">
+                    <p><span class="prompt">$</span> echo $CONTACT</p>
+                    <p class="email-output">verilog (at) yahoo (dot) com</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-			<p>
-				Software Engineer, &nbsp San Francisco Bay Area<br><br>
-			</p>
+    <footer class="footer">
+        <p>&copy; 2026 Maunesh Ahir</p>
+    </footer>
 
-			<ul class="social-icons">
-				<li><a class="linkedin" href="https://www.linkedin.com/in/mauneshahir" target="_blank"> title="LinkedIn">LinkedIn</a>Academic & Professional Background</li>
-			</ul>
-			<ul class="social-icons">
-            	<li><a class="github" href="https://github.com/maunesh" target="_blank"> title="GitHub">GitHub</a>Open Source Projects</li>
-			</ul>
-			<ul class="social-icons">
-				<li><a class="medium" href="https://medium.com/@maunesh" target="_blank"> title="Medium">Medium</a>Blog</li>
-			</ul>
-			<ul class="social-icons">
-				<li><a class="youtube" href="https://www.youtube.com/c/MauneshAhir" target="_blank"> title="YouTube">YouTube</a>Project Videos</li>
-			</ul>
-			<ul class="social-icons">
-				<li><a class="twitter" href="https://twitter.com/mauneshahir" target="_blank"> title="Twitter">Twitte</a>Social</li>
-			</ul>
+    <script>
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
 
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
 
-			<p style="font-weight: normal;"><b>Want to get in touch?</b> <br>
-            The best way to reach me, is via <a href="https://www.linkedin.com/in/mauneshahir""> LinkedIn.</a> <br> 
-            If you prefer to email, send to  verilog (at) yahoo (dot) com. </p>
+        document.querySelectorAll('.timeline-item, .link-card, .about-content, .section-heading').forEach(el => {
+            observer.observe(el);
+        });
 
-		</div>
-	</body>
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+
+</body>
 </html>
